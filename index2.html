@@ -1,0 +1,29 @@
+<form class="text-dark">
+    <div class="mb-3">
+        <label for="nombre" class="form-label d-flex align-items-center">
+            Nombre
+            <i class="fa-solid fa-circle-info tooltip__icon ms-2" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title="Ingresa tu nombre completo"></i>
+        </label>
+        <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label d-flex align-items-center">
+            Email
+            <i class="fa-solid fa-circle-info tooltip__icon ms-2" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title="Ingresa tu correo electrónico"></i>
+        </label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+        <label for="mensaje" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="mensaje" style="height: 100px; resize: none;"></textarea>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+        <label class="form-check-label" for="flexCheckChecked">
+            <a class="check__link" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Acepto los términos y condiciones</a>
+        </label>
+    </div>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-start my-4">
+        <button class="button rounded px-4" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Presiona para enviar tu mensaje" id="enviarMensaje">Enviar</button>
+    </div>
+</form>
